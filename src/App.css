@@ -1,0 +1,36 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+  width: 100vw;
+}
+
+.card {
+  background-color: white;
+  /* text-align: center; */
+  padding: 1%;
+  height: 456px;
+  width: 458px;
+
+
+}
+.instashare{
+  /* margin-bottom: 1%; */
+  color: black;
+  /* margin-top: -3px; */
+  font-family: "Roboto";
+
+}
+.logologin{
+  height: 13%;
+  width: 13%;
+  object-fit: contain;
+  
+}
+.totalCard{
+  background-color: aliceblue;
+}
+.small-card{
+  text-align: center;
+}
