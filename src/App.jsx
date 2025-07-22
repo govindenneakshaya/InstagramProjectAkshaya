@@ -7,16 +7,14 @@ import SomethingWrongPage from "./Components/SomethingWrongPage";
 import PageNotFound from "./Components/PageNotFound";
 import SearchNotFound from "./Components/SearchNotFound";
 import OnlyLoading from "./Components/OnlyLoading";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import ProtectedRoutes from "./Components/ProtectedRoutes";
-import { useLocation } from "react-router-dom";
+
 
 
 function App() {
-   const location = useLocation();
-
-  console.log("Full URL path:", location.pathname);
+ 
 
 
   return (
