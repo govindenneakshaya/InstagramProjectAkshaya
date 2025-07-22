@@ -13,7 +13,7 @@ function Login() {
   
   async function fetchApiData() {
     try {
-      const response = await fetch("/api/login", {
+      const response = await fetch("https://apis.ccbp.in/api/login", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
